@@ -1,3 +1,3 @@
-# React Project Template
+# Mock Shopping Cart
 
-This is a Template for a react coding environment using vite.
+This is a react shopping cart project.
