@@ -1,3 +1,5 @@
+import { Link } from "react-router";
+
 function ErrorPage() {
   return (
     <div>
