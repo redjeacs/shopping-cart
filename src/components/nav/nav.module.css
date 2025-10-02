@@ -1,14 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Amarante&display=swap");
+
 header {
   display: flex;
-  justify-content: end;
+  justify-content: space-between;
   align-items: center;
-  gap: 50%;
-  padding: 20px;
+  padding: 10px;
+  background-color: whitesmoke;
 }
 
 .left {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  font-family: Amarante;
+  font-size: 30px;
+}
+
+.shopLinks {
+  display: flex;
+  gap: 20px;
 }
 
 .right {
