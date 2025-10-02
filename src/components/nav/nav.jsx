@@ -17,9 +17,11 @@ function Nav() {
       <div className={styles.right}>
         <Link to="/">
           <House />
+          <p>Home</p>
         </Link>
         <Link to="cart">
           <ShoppingCart />
+          <p>Cart</p>
         </Link>
       </div>
     </header>

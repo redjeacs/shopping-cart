@@ -8,6 +8,11 @@ header {
   background-color: whitesmoke;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 .left {
   display: flex;
   flex-direction: column;
@@ -27,5 +32,12 @@ header {
 
 .right {
   display: flex;
-  gap: 10px;
+  gap: 20px;
+  padding: 0 20px;
+}
+
+.right > a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
