@@ -13,6 +13,10 @@ a {
   text-decoration: none;
 }
 
+.centeringDiv {
+  width: 199px;
+}
+
 .left {
   display: flex;
   flex-direction: column;
