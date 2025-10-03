@@ -7,11 +7,13 @@ function Nav() {
     <header>
       <div className={styles.centeringDiv}></div>
       <div className={styles.left}>
-        <div className={styles.logo}>SweatShop</div>
+        <div className={styles.logo}>
+          <Link to="/">SweatShop</Link>
+        </div>
         <div className={styles.shopLinks}>
-          <Link to="shop">Men</Link>
-          <Link to="shop">Women</Link>
-          <Link to="shop">Children</Link>
+          <Link to="/shop/men">Men</Link>
+          <Link to="/shop/women">Women</Link>
+          <Link to="/shop/children">Children</Link>
         </div>
       </div>
       <div className={styles.right}>

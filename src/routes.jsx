@@ -15,7 +15,11 @@ const routes = [
         element: <Home />,
       },
       {
-        path: "shop",
+        path: "shop/",
+        element: <Shop />,
+      },
+      {
+        path: "shop/:name",
         element: <Shop />,
       },
       {
