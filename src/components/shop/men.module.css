@@ -1,0 +1,56 @@
+.shopContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-bottom: 40px;
+  background-color: whitesmoke;
+}
+
+.shopContainer > div {
+  width: clamp(70%, 850px, 100%);
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.products {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fill, 300px);
+  gap: 40px;
+  padding: 20px;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 20px;
+  border: 3px solid black;
+  background-color: whitesmoke;
+  border-radius: 25px;
+}
+
+.imageContainer {
+  width: 100%;
+  height: 100%;
+}
+
+.imgae {
+  object-fit: cover;
+}
+
+.productName {
+  font-size: 18px;
+}
+
+.productPrice {
+  font-size: 16px;
+  font-weight: bold;
+  color: red;
+}

@@ -6,7 +6,6 @@ import DefaultShop from "./default";
 
 function Shop() {
   const { name } = useParams();
-  const renderContent = () => {};
 
   return (
     <div className="shopContainer">
