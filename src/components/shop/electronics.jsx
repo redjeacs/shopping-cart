@@ -1,5 +1,5 @@
 import { useOutletContext } from "react-router";
-import styles from "./men.module.css";
+import styles from "./shopCategories.module.css";
 import Product from "./product";
 
 function Electronics() {
