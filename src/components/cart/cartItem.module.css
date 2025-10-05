@@ -1,0 +1,39 @@
+.item {
+  display: flex;
+  font-size: 1.2rem;
+  gap: 10px;
+}
+
+.itemImg {
+  width: 100px;
+  height: 100px;
+}
+
+.itemSummary {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+}
+
+.itemInfo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.totalPrice {
+  align-self: flex-end;
+}
+
+.itemQuantity {
+  display: flex;
+  gap: 10px;
+}
+
+.removeItemBtn {
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
