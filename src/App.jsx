@@ -2,12 +2,13 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import Nav from "./components/nav/nav";
 import { Outlet } from "react-router";
+import { CartProvider } from "./components/context/cartContext";
 
 function App() {
-  const [mensClothing, setMensClothing] = useState("");
-  const [womensClothing, setWomensClothing] = useState("");
-  const [jewelery, setJewelery] = useState("");
-  const [electronics, setElectronics] = useState("");
+  const [mensClothing, setMensClothing] = useState([]);
+  const [womensClothing, setWomensClothing] = useState([]);
+  const [jewelery, setJewelery] = useState([]);
+  const [electronics, setElectronics] = useState([]);
 
   useEffect(() => {
     fetch("https://fakestoreapi.com/products", { mode: "cors" })
@@ -37,7 +38,7 @@ function App() {
       });
   }, []);
   return (
-    <>
+    <CartProvider>
       <Nav />
       <main>
         <Outlet
@@ -49,7 +50,7 @@ function App() {
           }}
         />
       </main>
-    </>
+    </CartProvider>
   );
 }
 

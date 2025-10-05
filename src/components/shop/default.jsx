@@ -33,7 +33,11 @@ function DefaultShop() {
             <div className={styles.womenImage}></div>
             <p>Women</p>
           </Link>
-          <Link to="children" className={styles.link}>
+          <Link to="electronics" className={styles.link}>
+            <div className={styles.childrenImage}></div>
+            <p>Kids</p>
+          </Link>
+          <Link to="jewelery" className={styles.link}>
             <div className={styles.childrenImage}></div>
             <p>Kids</p>
           </Link>

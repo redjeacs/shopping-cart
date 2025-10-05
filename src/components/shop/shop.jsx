@@ -1,7 +1,8 @@
 import { useParams } from "react-router";
 import Men from "./men";
 import Women from "./women";
-import Children from "./children";
+import Electronics from "./electronics";
+import Jewelery from "./jewelery";
 import DefaultShop from "./default";
 
 function Shop() {
@@ -13,8 +14,10 @@ function Shop() {
         <Men />
       ) : name === "women" ? (
         <Women />
-      ) : name === "children" ? (
-        <Children />
+      ) : name === "electronics" ? (
+        <Electronics />
+      ) : name === "jewelery" ? (
+        <Jewelery />
       ) : (
         <DefaultShop />
       )}

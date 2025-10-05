@@ -2,18 +2,18 @@ import { useOutletContext } from "react-router";
 import styles from "./men.module.css";
 import Product from "./product";
 
-function Men() {
-  const { mensClothing } = useOutletContext();
+function Electronics() {
+  const { electronics } = useOutletContext();
 
   return (
     <div className={styles.shopContainer}>
       <div className={styles.shopCategory}>
         <h2 className={styles.title}>
-          Men's Fashion & Accessories <p>({mensClothing.length})</p>
+          Men's Fashion & Accessories <p>({electronics.length})</p>
         </h2>
       </div>
       <div className={styles.products}>
-        {mensClothing.map((item) => (
+        {electronics.map((item) => (
           <Product key={item.id} item={item} />
         ))}
       </div>
@@ -21,4 +21,4 @@ function Men() {
   );
 }
 
-export default Men;
+export default Electronics;

@@ -13,7 +13,8 @@ function Nav() {
         <div className={styles.shopLinks}>
           <Link to="/shop/men">Men</Link>
           <Link to="/shop/women">Women</Link>
-          <Link to="/shop/children">Children</Link>
+          <Link to="/shop/electronics">Electronics</Link>
+          <Link to="/shop/jewelery">Jewelery</Link>
         </div>
       </div>
       <div className={styles.right}>
