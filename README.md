@@ -4,12 +4,16 @@ A responsive, client-side e-commerce shopping cart web application built with **
 
 This project explores frontend state management, dynamic item tracking, and interactive item configurations inside a simulated checkout ecosystem.
 
-<p>
-   <img width="1905" height="1327" alt="redjeacs github io_shopping-cart_shop (2)" src="https://github.com/user-attachments/assets/8dc1ec80-ce13-47e3-8e64-025bc4e1ece2" />
-</p>
+
 
 ## 🌐 Live Demo
-👉 **[View the Live Application](https://redjeacs.github.io/memory-card/)**
+👉 **[View the Live Application](https://redjeacs.github.io/shopping-cart/)**
+
+<p>
+   <a href="https://redjeacs.github.io/shopping-cart/">
+      <img width="1905" height="1327" alt="redjeacs github io_shopping-cart_shop (2)" src="https://github.com/user-attachments/assets/8dc1ec80-ce13-47e3-8e64-025bc4e1ece2" />
+   </a>
+</p>
 
 ---
 
