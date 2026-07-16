@@ -7,7 +7,7 @@ import { CartProvider } from "./components/context/cartContext";
 function App() {
   const [mensClothing, setMensClothing] = useState([]);
   const [womensClothing, setWomensClothing] = useState([]);
-  const [jewelery, setJewelery] = useState([]);
+  const [jewelry, setjewelry] = useState([]);
   const [electronics, setElectronics] = useState([]);
 
   useEffect(() => {
@@ -20,20 +20,20 @@ function App() {
       })
       .then((response) => {
         const menData = response.filter(
-          (product) => product.category === "men's clothing"
+          (product) => product.category === "men's clothing",
         );
         const womenData = response.filter(
-          (product) => product.category === "women's clothing"
+          (product) => product.category === "women's clothing",
         );
-        const jeweleryData = response.filter(
-          (product) => product.category === "jewelery"
+        const jewelryData = response.filter(
+          (product) => product.category === "jewelry",
         );
         const electronicsData = response.filter(
-          (product) => product.category === "electronics"
+          (product) => product.category === "electronics",
         );
         setMensClothing(menData);
         setWomensClothing(womenData);
-        setJewelery(jeweleryData);
+        setjewelry(jewelryData);
         setElectronics(electronicsData);
       });
   }, []);
@@ -45,7 +45,7 @@ function App() {
           context={{
             mensClothing,
             womensClothing,
-            jewelery,
+            jewelry,
             electronics,
           }}
         />

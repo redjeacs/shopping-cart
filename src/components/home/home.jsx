@@ -6,7 +6,7 @@ function Home() {
     <section>
       <img src="../src/assets/home-image.jpg" alt="" />
       <div className={styles.shopRedirect}>
-        <h2>Welcome to SweatShop!</h2>
+        <h2>Welcome to EveryShop!</h2>
         <p>Your one stop for all your clothing needs</p>
         <Link className={styles.shopLink} to="shop">
           Shop Now

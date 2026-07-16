@@ -8,13 +8,13 @@ function Nav() {
       <div className={styles.centeringDiv}></div>
       <div className={styles.left}>
         <div className={styles.logo}>
-          <Link to="/">SweatShop</Link>
+          <Link to="/shop">EveryShop</Link>
         </div>
         <div className={styles.shopLinks}>
           <Link to="/shop/men">Men</Link>
           <Link to="/shop/women">Women</Link>
           <Link to="/shop/electronics">Electronics</Link>
-          <Link to="/shop/jewelery">Jewelery</Link>
+          <Link to="/shop/jewelry">Jewelry</Link>
         </div>
       </div>
       <div className={styles.right}>

@@ -42,7 +42,7 @@ h2 {
 }
 
 .latestContainer > div {
-  border: 3px solid black;
+  border: 2px solid white;
   height: 100%;
   padding: 10px;
 }
@@ -87,11 +87,12 @@ h2 {
 
 .menImage,
 .womenImage,
-.childrenImage {
+.electronicsImage,
+.jewelryImage {
   min-width: 180px;
   min-height: 200px;
   border-radius: 25px;
-  border: 3px solid black;
+  border: 2px solid white;
 
   background-size: cover;
 }
@@ -104,6 +105,10 @@ h2 {
   background-image: url(../src/assets/women-shirt.jpg);
 }
 
-.childrenImage {
-  background-image: url(../src/assets/kids-shirt.jpg);
+.electronicsImage {
+  background-image: url(../src/assets/electronics.jpg);
+}
+
+.jewelryImage {
+  background-image: url(../src/assets/jewelry.jpg);
 }

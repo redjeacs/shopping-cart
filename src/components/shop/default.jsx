@@ -34,12 +34,12 @@ function DefaultShop() {
             <p>Women</p>
           </Link>
           <Link to="electronics" className={styles.link}>
-            <div className={styles.childrenImage}></div>
-            <p>Kids</p>
+            <div className={styles.electronicsImage}></div>
+            <p>Electronics</p>
           </Link>
-          <Link to="jewelery" className={styles.link}>
-            <div className={styles.childrenImage}></div>
-            <p>Kids</p>
+          <Link to="jewelry" className={styles.link}>
+            <div className={styles.jewelryImage}></div>
+            <p>Jewelry</p>
           </Link>
         </div>
       </div>
