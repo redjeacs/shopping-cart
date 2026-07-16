@@ -4,23 +4,47 @@ A responsive, client-side e-commerce shopping cart web application built with **
 
 This project explores frontend state management, dynamic item tracking, and interactive item configurations inside a simulated checkout ecosystem.
 
+<p>
+   <img width="1905" height="1327" alt="redjeacs github io_shopping-cart_shop (2)" src="https://github.com/user-attachments/assets/8dc1ec80-ce13-47e3-8e64-025bc4e1ece2" />
+</p>
+
+## 🌐 Live Demo
+👉 **[View the Live Application](https://redjeacs.github.io/memory-card/)**
+
+---
+
 ## 🚀 Features
 
-- **Dynamic Product Grid**: Clean catalog displaying items with real-time detail rendering.
-- **Interactive Cart Management**: Add items to the cart, dynamically scale item quantities, and safely remove items.
-- **Live Price Calculations**: Automatic mathematical computation of item subtotals and the overall checkout total.
-- **Lightning Fast Performance**: Structured on a streamlined React configuration with blazing-fast Vite Hot Module Replacement (HMR).
-- **Exclusive Product Page**: Streamlined browser routing for individual shop categories.
+* **Dynamic Product Grid**
+  Clean catalog displaying items with real-time detail rendering.
+  
+  <img src="https://github.com/user-attachments/assets/9bb2d5dc-b3e0-4538-8f9f-2b94b25c9163" width="100%" alt="Dynamic Product Grid" />
+
+* **Exclusive Product Page**  
+  Streamlined browser routing for individual shop categories.
+  
+  <img src="https://github.com/user-attachments/assets/f0eebf26-9a82-431c-b96b-a8d499ddbca1" width="100%" alt="Exclusive Product Page" />
+
+* **Interactive Cart Management**  
+  Add items to the cart, dynamically scale item quantities, and safely remove items.
+  
+  <img src="https://github.com/user-attachments/assets/b7ce1cb5-d3fe-478d-a931-c1929fbf1f8f" width="100%" alt="Interactive Cart Management" />
+
+* **Live Price Calculations**  
+  Automatic mathematical computation of item subtotals and the overall checkout total.
+
 
 ## 🛠️ Built With
 
 - **React** - Component-driven declarative UI architecture.
-- - **React Router Dom** - Client-side declarative routing library.
+- **React Router** - Client-side declarative routing library.
 - **JavaScript (ES6+)** - Dynamic cart state management and shopping logic.
 - **CSS3** - Layout structuring, interactive effects, and storefront styling.
 - **HTML5** - Application root mounting target.
 - **Vite** - High-performance local development build tool.
 - **ESLint** - Code quality consistency checker.
+
+---
 
 ## 📦 Getting Started
 
