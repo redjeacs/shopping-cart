@@ -26,7 +26,7 @@ function App() {
           (product) => product.category === "women's clothing",
         );
         const jewelryData = response.filter(
-          (product) => product.category === "jewelry",
+          (product) => product.category === "jewelery",
         );
         const electronicsData = response.filter(
           (product) => product.category === "electronics",

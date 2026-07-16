@@ -2,7 +2,7 @@ import { useParams } from "react-router";
 import Men from "./men";
 import Women from "./women";
 import Electronics from "./electronics";
-import jewelry from "./jewelry";
+import Jewelry from "./jewelry";
 import DefaultShop from "./default";
 
 function Shop() {
@@ -17,7 +17,7 @@ function Shop() {
       ) : name === "electronics" ? (
         <Electronics />
       ) : name === "jewelry" ? (
-        <jewelry />
+        <Jewelry />
       ) : (
         <DefaultShop />
       )}

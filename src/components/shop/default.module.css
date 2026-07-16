@@ -16,7 +16,7 @@
 
 .discountContainer,
 .categoriesContainer {
-  background-image: url(../src/assets/shop-background.jpg);
+  background-image: url(../../assets/shop-background.jpg);
 }
 
 .discountContainer {
@@ -35,7 +35,7 @@ h2 {
   height: 600px;
   justify-content: space-between;
   padding: 80px;
-  background-image: url(../src/assets/featured-background.jpg);
+  background-image: url(../../assets/featured-background.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -78,11 +78,11 @@ h2 {
 }
 
 .left {
-  background-image: url(../src/assets/summer-fit.jpg);
+  background-image: url(../../assets/summer-fit.jpg);
 }
 
 .right {
-  background-image: url(../src/assets/breathable-fabric.jpg);
+  background-image: url(../../assets/breathable-fabric.jpg);
 }
 
 .menImage,
@@ -98,17 +98,17 @@ h2 {
 }
 
 .menImage {
-  background-image: url(../src/assets/men-shirt.jpg);
+  background-image: url(../../assets/men-shirt.jpg);
 }
 
 .womenImage {
-  background-image: url(../src/assets/women-shirt.jpg);
+  background-image: url(../../assets/women-shirt.jpg);
 }
 
 .electronicsImage {
-  background-image: url(../src/assets/electronics.jpg);
+  background-image: url(../../assets/electronics.jpg);
 }
 
 .jewelryImage {
-  background-image: url(../src/assets/jewelry.jpg);
+  background-image: url(../../assets/jewelry.jpg);
 }

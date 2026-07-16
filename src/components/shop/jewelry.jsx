@@ -2,7 +2,7 @@ import { useOutletContext } from "react-router";
 import styles from "./shopCategories.module.css";
 import Product from "./product";
 
-function jewelry() {
+function Jewelry() {
   const { jewelry } = useOutletContext();
 
   return (
@@ -21,4 +21,4 @@ function jewelry() {
   );
 }
 
-export default jewelry;
+export default Jewelry;
